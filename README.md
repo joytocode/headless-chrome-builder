@@ -13,8 +13,10 @@ We tested the script in AWS only. You can still make it work in GCP or Azure wit
 We use the following setup in AWS EC2:
 
 - AMI: Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-6b8cef13
-- Instance type: c5.4xlarge (16 vCPUs, 32 GiB Memory) (c5.2xlarge still works but takes 20 minutes longer)
+- Instance type: `c5.4xlarge` (16 vCPUs, 32 GiB Memory) (`c5.2xlarge` still works but takes 20 minutes longer)
 - Root storage: 30 GiB
+
+The build will take about 45 minutes and cost you $0.50 (On-Demand pricing of `c5.4xlarge` at US West is $0.68 per Hour).
 
 ### Fetch the source code (20 minutes)
 
