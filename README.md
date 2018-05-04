@@ -25,7 +25,7 @@ The build will take about 45 minutes and cost $0.50 (On-Demand pricing of `c5.4x
 
 When the EC2 instance is ready, SSH to it and run commands in next sections.
 
-> If you want to run a long command in background, do it by `nohup bash -c './builder.sh fetch' &` or `nohup bash -c './builder.sh build' &`. Then, you can terminate and reconnect SSH anytime and also watch the log by `tail -f -n 50 ./nohup.out`.
+> If you want to run a long command in background, do it by **`nohup bash -c './builder.sh fetch' &`** or **`nohup bash -c './builder.sh build' &`**. Then, you can terminate and reconnect SSH anytime and also watch the log by **`tail -f -n 50 ./nohup.out`**.
 
 ### 1. Download the builder script
 
