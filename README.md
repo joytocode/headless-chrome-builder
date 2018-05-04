@@ -29,7 +29,7 @@ When the EC2 instance is ready, SSH to it and run commands in next sections.
 
 ### 1. Download the builder script
 
-```
+```bash
 $ cd ~
 
 $ wget https://rawgit.com/joytocode/headless-chrome-builder/master/builder.sh
@@ -39,13 +39,13 @@ $ chmod +x ./builder.sh
 
 ### 2. Fetch the source code (20 minutes)
 
-```
+```bash
 $ ./builder.sh fetch
 ```
 
 ### 3. Sync the source code to a specific release tag
 
-```
+```bash
 $ ./builder.sh sync RELEASE_TAG
 ```
 
@@ -61,7 +61,7 @@ If you see error like:
 
 Go to the submodule and fetch the required commit (https://groups.google.com/a/chromium.org/forum/#!msg/chromium-dev/h7nWEEE4ank/U7OyeqGBAQAJ):
 
-```
+```bash
 $ cd ~/chromium/src/third_party/webrtc
 
 $ git fetch origin b20aef0d47bf3924adfc7bfbee707f6f137670fb
@@ -73,7 +73,7 @@ Repeat running sync and fixing errors until you see no error.
 
 ### 4. Build the source code (20 minutes)
 
-```
+```bash
 $ ./builder.sh build
 ```
 
