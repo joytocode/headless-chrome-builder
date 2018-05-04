@@ -69,7 +69,7 @@ $ git fetch origin b20aef0d47bf3924adfc7bfbee707f6f137670fb
 $ cd ~
 ```
 
-Repeat running sync and fixing errors until you see no error.
+Remember to replace the commit id with the one in the error message. Repeat running sync and fixing errors until you see no error.
 
 ### 4. Build the source code (20 minutes)
 
