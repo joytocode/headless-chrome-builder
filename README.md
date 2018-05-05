@@ -6,8 +6,8 @@ A script to build Headless Chrome at any release version.
 
 | Version | Release Date |
 | ------- | ------------ |
-| 66.0.3359.139 | April 26, 2018 |
-| 66.0.3359.117 | April 17, 2018 |
+| [66.0.3359.139](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/66.0.3359.139.zip) | April 26, 2018 |
+| [66.0.3359.117](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/66.0.3359.117.zip) | April 17, 2018 |
 
 We track stable desktop releases by this blog [https://chromereleases.googleblog.com/search/label/Stable%20updates](https://chromereleases.googleblog.com/search/label/Stable%20updates).
 
