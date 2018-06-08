@@ -21,7 +21,7 @@ We tested the script on AWS only. You can still make it work on GCP or Azure wit
 
 We use the following setup:
 
-- AMI: Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-6b8cef13
+- AMI: Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-e251209a
 - Instance type: `c5.4xlarge` (16 vCPUs, 32 GiB Memory) (`c5.2xlarge` still works but takes 20 minutes longer)
 - Root storage: 30 GiB
 
