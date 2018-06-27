@@ -6,6 +6,7 @@ A script to build Headless Chrome at any release version.
 
 | Version | Release Date |
 | ------- | ------------ |
+| [67.0.3396.99](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/67.0.3396.99.zip) | June 25, 2018 |
 | [67.0.3396.87](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/67.0.3396.87.zip) | June 13, 2018 |
 | [67.0.3396.79](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/67.0.3396.79.zip) | June 6, 2018 |
 | [67.0.3396.62](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/67.0.3396.62.zip) | May 29, 2018 |
