@@ -6,6 +6,7 @@ A script to build Headless Chrome at any release version.
 
 | Version | Release Date |
 | ------- | ------------ |
+| [68.0.3440.75](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/68.0.3440.75.zip) | July 24, 2018 |
 | [67.0.3396.99](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/67.0.3396.99.zip) | June 25, 2018 |
 | [67.0.3396.87](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/67.0.3396.87.zip) | June 13, 2018 |
 | [67.0.3396.79](https://s3-us-west-2.amazonaws.com/joytocode-public/headless-chrome/67.0.3396.79.zip) | June 6, 2018 |
@@ -23,7 +24,7 @@ We tested the script on AWS only. You can still make it work on GCP or Azure wit
 
 We use the following setup:
 
-- AMI: Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-e251209a
+- AMI: Amazon Linux AMI 2018.03.0 (HVM), SSD Volume Type - ami-0ad99772
 - Instance type: `c5.4xlarge` (16 vCPUs, 32 GiB Memory) (`c5.2xlarge` still works but takes 20 minutes longer)
 - Root storage: 30 GiB
 
