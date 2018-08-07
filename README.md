@@ -1,3 +1,5 @@
+UNMAINTAINED: This repo is now unmaintained. We recommend using https://github.com/adieuadieu/serverless-chrome/tree/master/packages/lambda instead.
+
 # joytocode/headless-chrome-builder
 
 A script to build Headless Chrome at any release version.
